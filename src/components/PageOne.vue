@@ -4,10 +4,10 @@
   
     <div class="head w">
       <!-- logo -->
-      <div class="logo">
+      <a href="#" class="logo">
         <i>>_</i>
-        Logo
-      </div>
+        LOGO
+      </a>
 
       <!-- 导航栏 -->
       <div class="nav">
@@ -34,6 +34,11 @@ export default {
 
 <style lang="less" scoped>
 
+body{
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
 .w {
     width: 1170px;
     margin: 0 auto;
@@ -46,6 +51,7 @@ ul li {
 a {
       text-decoration: none;
       color: rgb(255, 255, 255);
+      font-size: 14px;
 }
 
 * {
@@ -69,13 +75,16 @@ a {
 }
 
 .logo{
+  display: block;
   float: left;
   line-height: 63px;
   padding: 12px 15px;
   color: rgb(255, 255, 255);
   font-weight: 600;
+  font-size: 20px;
   i{
      color: rgb(244, 208, 63);
+     font-weight: normal;
   }
  
 }
